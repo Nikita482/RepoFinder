@@ -89,3 +89,15 @@ body {
   aspect-ratio: 1 / 1;
   margin-right: 5px;
 }
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 90vw;
+  }
+
+  .wrapper__pole,
+  .wrapper__list-item,
+  .wrapper__repo-item {
+    width: 90%;
+  }
+}
